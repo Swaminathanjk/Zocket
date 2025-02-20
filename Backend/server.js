@@ -4,13 +4,11 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const { createServer } = require("http");
 const { Server } = require("socket.io");
-const taskRoutes = require("./routes/task");
-const aiRoutes = require("./routes/ai");
-
-
 
 // Import Routes
 const authRoutes = require("./routes/auth");
+const taskRoutes = require("./routes/task");
+const aiRoutes = require("./routes/ai");
 
 const app = express();
 const server = createServer(app);
@@ -21,13 +19,12 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB Connection
-mongoose
-  .connect(process.env.MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => console.log("✅ MongoDB Connected"))
-  .catch((err) => console.error("❌ MongoDB Connection Error:", err));
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log("✅ MongoDB Connected"))
+.catch((err) => console.error("❌ MongoDB Connection Error:", err));
 
 // WebSocket Setup
 io.on("connection", (socket) => {
@@ -40,12 +37,11 @@ app.use("/api/auth", authRoutes);
 app.use("/api/tasks", taskRoutes);
 app.use("/api/ai", aiRoutes);
 
-
 // Test Route
 app.get("/", (req, res) => {
-  res.send("API is Running...");
+  res.send("✅ API is Running...");
 });
 
-// Start Server
+// Use Render's Dynamic PORT
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
