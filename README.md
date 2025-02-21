@@ -118,5 +118,5 @@ We integrated **Google Gemini API** to generate **smart task suggestions**.
 ---
 
 ## 👨‍💻 **Contributors**
-- **[Your Name](https://github.com/your-username)**
+- **J K Swaminathan**
 
