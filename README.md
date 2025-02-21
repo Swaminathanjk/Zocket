@@ -93,7 +93,8 @@ DELETE	[/api/tasks/:id]	Delete a task
 
 
 POST	[/api/ai/suggest]	Get AI-generated task ideas
- ---
+```
+
 
 ## 🎥 **Demo Video**
 📺 **Watch the Full Demo Here:** [Your Video Link](https://your-video-link.com)
