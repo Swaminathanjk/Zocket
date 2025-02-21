@@ -29,7 +29,7 @@ This is an AI-powered task management system that helps users create, update, an
 ---
 
 ## 🌍 **Live Demo**
-🚀 **Frontend:** [Your Frontend URL]([https://your-frontend.onrender.com](https://zocket-frontend.onrender.com))  
+🚀 **Frontend:** [Your Frontend URL]([https://zocket-frontend.onrender.com])  
 🔗 **Backend API:** [Your Backend URL](https://your-backend.onrender.com/api)  
 
 ---
