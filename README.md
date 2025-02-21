@@ -43,10 +43,10 @@ cd your-repo
 
 ### **2️⃣ Install Dependencies**
 
-cd Frontend/zocket_task
-npm install  # Install frontend dependencies
-cd backend
-npm install  # Install backend dependencies
+-cd Frontend/zocket_task
+-npm install  # Install frontend dependencies
+-cd backend
+-npm install  # Install backend dependencies
 
 ###**3️⃣ Set Up Environment Variables**
 
