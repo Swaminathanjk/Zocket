@@ -41,14 +41,14 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
 
-###2️⃣ Install Dependencies
+### **2️⃣ Install Dependencies**
 
 cd Frontend/zocket_task
 npm install  # Install frontend dependencies
 cd backend
 npm install  # Install backend dependencies
 
-###3️⃣ Set Up Environment Variables
+###**3️⃣ Set Up Environment Variables**
 
 Create a .env file in the backend directory and add:
 
@@ -57,14 +57,14 @@ PORT=5000
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_google_gemini_api_key
 
-###4️⃣ Run the Project
+###**4️⃣ Run the Project**
 For Backend (inside /backend folder)
 npm start
 
 For Frontend (inside root folder)
 npm run dev
 
-###🔥 API Endpoints
+###**🔥 API Endpoints**
 
 ### Authentication
 
