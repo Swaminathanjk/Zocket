@@ -44,7 +44,7 @@ cd your-repo
 
 
 
-### **2️⃣ Install Dependencies**
+ 2️⃣ Install Dependencies
 
 cd Frontend/zocket_task
 npm install  # Install frontend dependencies
@@ -53,7 +53,7 @@ cd ../backend
 npm install  # Install backend dependencies
 
 
-###**3️⃣ Set Up Environment Variables**
+3️⃣ Set Up Environment Variables
 
 Create a .env file in the backend directory and add:
 
@@ -63,7 +63,7 @@ JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_google_gemini_api_key
 
 
-###**4️⃣ Run the Project**
+4️⃣ Run the Project
 
 # Start the Backend
 cd backend
@@ -74,25 +74,26 @@ cd ../Frontend/zocket_task
 npm run dev 
 
 
-###**🔥 API Endpoints**
+ API Endpoints
 
-### Authentication
+ Authentication
 
 POST	[/api/auth/register]	Register a new user
 POST	[/api/auth/login]	Login and get JWT token
 GET	[/api/auth/user]	Get current user details
 
-### Tasks
+ Tasks
 
 GET	[/api/tasks]	Get all tasks
 POST	[/api/tasks]	Create a new task
 PUT	[/api/tasks/:id]	Update task status
 DELETE	[/api/tasks/:id]	Delete a task
 
-### AI Task Suggestions
+ AI Task Suggestions
 
 
-POST	[/api/ai/suggest]	Get AI-generated task ideas ```sh
+POST	[/api/ai/suggest]	Get AI-generated task ideas
+ ---
 
 ## 🎥 **Demo Video**
 📺 **Watch the Full Demo Here:** [Your Video Link](https://your-video-link.com)
