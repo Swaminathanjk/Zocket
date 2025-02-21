@@ -3,7 +3,7 @@ import "../styles/footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2024 Task Manager. All rights reserved.</p>
+      <p>© 2025 Task Manager_JK. All rights reserved.</p>
     </footer>
   );
 }
