@@ -92,24 +92,29 @@ DELETE	[/api/tasks/:id]	Delete a task
 ### AI Task Suggestions
 
 
-POST	[/api/ai/suggest]	Get AI-generated task ideas
+POST	[/api/ai/suggest]	Get AI-generated task ideas ```sh
 
-### 🎥 Demo Video
-### 📺 Watch the Full Demo Here: Your Video Link
+## 🎥 **Demo Video**
+📺 **Watch the Full Demo Here:** [Your Video Link](https://your-video-link.com)
 
-### 🤖 How AI Tools Helped
-We integrated Google Gemini API to generate smart task suggestions.
+---
 
-How It Works:
-1️⃣ User enters a task idea
-2️⃣ The system sends the input to Google Gemini API
-3️⃣ AI processes the request and returns structured task suggestions
-4️⃣ The suggestions appear dynamically in the UI
+## 🤖 **How AI Tools Helped**
+We integrated **Google Gemini API** to generate **smart task suggestions**.
 
-### Benefits of AI Integration:
-🚀 Saves time – Users get instant task ideas
-🎯 Enhances productivity – Helps in better task planning
-🔍 More intelligent workflow – AI-generated structured tasks
+### **How It Works:**
+1️⃣ User enters a **task idea**  
+2️⃣ The system sends the input to **Google Gemini API**  
+3️⃣ AI processes the request and **returns structured task suggestions**  
+4️⃣ The suggestions appear dynamically in the UI  
 
-###👨‍💻 Contributors
-Your Name
+### **Benefits of AI Integration:**
+- 🚀 **Saves time** – Users get instant task ideas  
+- 🎯 **Enhances productivity** – Helps in better task planning  
+- 🔍 **More intelligent workflow** – AI-generated structured tasks  
+
+---
+
+## 👨‍💻 **Contributors**
+- **[Your Name](https://github.com/your-username)**
+
