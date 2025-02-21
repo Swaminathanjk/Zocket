@@ -97,7 +97,7 @@ POST	[/api/ai/suggest]	Get AI-generated task ideas
 
 
 ## 🎥 **Demo Video**
-📺 **Watch the Full Demo Here:** [Your Video Link](https://your-video-link.com)
+📺 **Watch the Full Demo Here:** [https://share.vidyard.com/watch/zbYHMS83K9kxoDMdDy1czo?]
 
 ---
 
