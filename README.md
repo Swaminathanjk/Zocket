@@ -35,18 +35,23 @@ This is an AI-powered task management system that helps users create, update, an
 ---
 
 ## 🛠 **Installation & Setup**
-### **1️⃣ Clone the Repository**
-sh
+Follow these steps to set up the project locally:
+
+1️⃣ **Clone the Repository**  
+```sh
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
 
+
 ### **2️⃣ Install Dependencies**
 
--cd Frontend/zocket_task
--npm install  # Install frontend dependencies
--cd backend
--npm install  # Install backend dependencies
+cd Frontend/zocket_task
+npm install  # Install frontend dependencies
+
+cd ../backend
+npm install  # Install backend dependencies
+
 
 ###**3️⃣ Set Up Environment Variables**
 
@@ -57,12 +62,17 @@ PORT=5000
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_google_gemini_api_key
 
+
 ###**4️⃣ Run the Project**
-For Backend (inside /backend folder)
+
+# Start the Backend
+cd backend
 npm start
 
-For Frontend (inside root folder)
-npm run dev
+# Start the Frontend
+cd ../Frontend/zocket_task
+npm run dev 
+
 
 ###**🔥 API Endpoints**
 
